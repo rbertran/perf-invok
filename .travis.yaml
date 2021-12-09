@@ -1,0 +1,7 @@
+- os: linux
+- arch:
+    - ppc64le
+    - s390x
+- script:
+    - make clean all
+    - make clean debug
